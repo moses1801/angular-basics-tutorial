@@ -26,14 +26,6 @@ import { NbSecurityModule } from '@nebular/security';
   ],
   imports: [
     CommonModule,
-    AngularFireModule.initializeApp({
-      apiKey: "AIzaSyCA_J-5jsa0DiN4F9UaZj03im3pF_rwXS0",
-      authDomain: "captcha-game.firebaseapp.com",
-      projectId: "captcha-game",
-      storageBucket: "captcha-game.appspot.com",
-      messagingSenderId: "933958519829",
-      appId: "1:933958519829:web:60ba7010bba2a8123e521c"
-    }),
     AngularFireAuthModule,
     AngularFireDatabaseModule,
     BrowserModule,
