@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "captcha-game": {
+      "hosting": {
+        "angualar-tutorials": [
+          "captcha-game"
+        ]
+      }
+    }
+  }
+}
